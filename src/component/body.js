@@ -60,7 +60,7 @@ function Body() {
                 color: "#212a39",
               }}
             >
-              {body.title}
+              Introduction to Machine Learning
             </h5>
             <h6
               style={{
@@ -84,7 +84,7 @@ function Body() {
           borderRadius: "10px",
         }}
       >
-        {body.course.map((data) => (
+        {/* {body.course.map((data) => (
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <button
@@ -137,9 +137,9 @@ function Body() {
               ))}
             </div>
           </div>
-        ))}
+        ))} */}
 
-        {/* <div class="accordion-item">
+        <div class="accordion-item">
           <h2 class="accordion-header" id="headingTwo">
             <button
               class="accordion-button collapsed"
@@ -286,7 +286,7 @@ function Body() {
               though the transition does limit overflow.
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );
